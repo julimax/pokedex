@@ -24,7 +24,7 @@ function displayPokemon(pokemonData) {
         pokemonDiv.appendChild(pokemonName);
 
         let pokemonImage = document.createElement('img');
-        pokemonImage.src = pokemonDetails.sprites.front_default;
+        pokemonImage.src = pokemonDetails.sprites.other.home.front_default;
         pokemonImage.addEventListener('mouseover', () => {
           pokemonImage.style.width = '200px';
           pokemonImage.style.height = '200px';
